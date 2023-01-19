@@ -82,6 +82,14 @@ Sonrasında, aşağıdaki formdaki bilgileri doldurup kayıt oluyoruz.
 ### UYARI: Graffiti adını node ismiyle aynı olacak şekilde seçin!!
 ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*-9g3lQCL3Pbk8RbAh-irsg.webp)
 
+## Node Çalıştırıyoruz.
+```
+ironfish start
+```
+> 10-15dk. içerisinde sekronize olmasını bekliyoruz. 
+> CTRL A+D ile screenden çıkıyoruz. !!! Kesinlikle CTRL+C yapmıyoruz. Node durmasına neden olursunuz.
+
+
 # Explorer
 ### https://www.aleo.network/
 ### https://aleo123.io/
