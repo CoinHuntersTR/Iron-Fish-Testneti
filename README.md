@@ -82,6 +82,21 @@ Sonrasında, aşağıdaki formdaki bilgileri doldurup kayıt oluyoruz.
 ### UYARI: Graffiti adını node ismiyle aynı olacak şekilde seçin!!
 ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*-9g3lQCL3Pbk8RbAh-irsg.webp)
 
+Kayıt olduktan sonra, sağda Graffiti adımızın üzerine basıyoruz. Görseldeki gibi tarayıcıdaki URL adresini kopyalıyoruz.
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*FDYKvBPJ9WLnvlCteBEjEw.webp)
+> Terminale dönüyoruz.
+
+## Node için gerekli portları açıyoruz.
+```
+ironfish testnet
+```
+> Bizden biraz önce kopyaladığımız URL adresini istiyor.
+> ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*uh2X64hiz3H1EEfYOtau5Q.webp)
+
+> URL adresini girdikten sonra -y basıp ENTER diyoruz. Aşağıdaki gibi bir çıktı alıyoruz.
+> ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*v1as1DmiyhDFR7SYxSqe6g.webp)
+
+
 ## Node Çalıştırıyoruz.
 ```
 ironfish start
@@ -106,6 +121,30 @@ ironfish status -f
 ```
 > Görseldeki gibi bir çıktı alıyorsanız sorun yoktur. 
 > ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*8hIaI5NIHGzDO-1a1PVVaw.webp)
+
+#Yararlı Komular
+
+## Node Tekrar Çalıştırma
+
+> Node durduğunda tekrar çalıştırmak için
+```
+ironfish start
+```
+## Node Hataları için
+
+> Node hata alırsanız, hata detayını görmek için
+```
+ironfish logs -v
+```
+## Node Bağlı olduğu peerları görmek için
+
+> Node hata alırsanız, hata detayını görmek için
+```
+ironfish peers -f
+```
+>![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*9T0Lb26veztF8sCm_HMqxw.webp)
+
+
 
 # Explorer
 ### https://www.aleo.network/
