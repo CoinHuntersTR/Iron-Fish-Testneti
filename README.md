@@ -19,20 +19,29 @@
   
 ## UYARI
 
-Aleo testneti PoW ve CPU ve Hashrate dayalı olduğu için, ödüllü testnet olmasına rağmen ödül kazanamayabilirsiniz. Ücretli aldığınız cihazlarda bile mining yaparken blok bulamazsanız ödüle hak kazanmayacağınızı bilin. Bu nedenle yapıp yapmamak size kalmış durumda. Bir önceki testnette katılıp hiç ödül kazanamayanlara ekip teselli ödülü vermişti. Bunu tekrar eder mi bilinmez? 
+Iron Fish Ödüllü testnetine katılabilmek için, mutlaka sitesine kayıt olmanız ve oraya verdiğiniz kullanıcı adi ile node kuracağınız kullanıcı adının aynı olması gerekir. Rehber içerisinde adımları dikkatlice takip edebilirsiniz.
 
 ### Sistem Güncellemeleri;
 
 ```
-sudo apt update
-sudo apt install make clang pkg-config libssl-dev build-essential gcc xz-utils git curl vim tmux ntp jq llvm ufw -y
+sudo apt update && apt upgrade -y
 ```
 
-### Rust Yüklüyoruz.
+### Sistem Gereksinimlerini yüklüyoruz.
 
 ```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-source $HOME/.cargo/env
+sudo apt install build-essential g++ make
+```
+
+### Yeni bir screen kurulma
+> Sunucu içinde yeni bir screen oluşturuyoruz. Kurulum ve takibini oradan yapacağız.
+```
+sudo apt install screen
+```
+> "Screen Adı" tırnaklar dahil kaldırıp istediğiniz adı girebilirsiniz.
+> Örnek sudo screen -S ironfish gibi
+```
+sudo screen -S "Screen Adı"
 ```
 
 ### Gerekli olan portları açıyoruz.
