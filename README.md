@@ -150,6 +150,12 @@ ironfish peers -f
 ironfish wallet:accounts
 ```
 
+## Iron Fish Private Key alma
+> Burada çıkan değerleri kopyalayıp bir yerde saklayın!
+```
+ironfish wallet:export
+```
+
 ## Iron Fish Cüzdan Değeri
 > Cüzdan içideki coinlerin sayısını görmek için
 ```
