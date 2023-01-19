@@ -1,6 +1,6 @@
 # Iron Fish Ödüllü Node Test Kurulum Rehberi
 
-![aleotestneti](https://miro.medium.com/max/720/1*sxBBcNLRideJweRal2pMmw.webp)
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*sxBBcNLRideJweRal2pMmw.webp)
 
 
 ### Önerilen Sistem Gereksinimleri;
@@ -44,30 +44,24 @@ sudo apt install screen
 sudo screen -S "Screen Adı"
 ```
 
-### Gerekli olan portları açıyoruz.
-> Portları sırasıyla giriyoruz.
+### Node js kurulumu ile devam ediyoruz.
 
 ```
-sudo ufw allow 4133/tcp
-sudo ufw allow 3033/tcp
+sudo curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 ```
 
-### Node için gerekli olan kurulumları yapıyoruz.
-> Kodları sırasıyla giriyoruz.
-```
-tmux
-git clone https://github.com/AleoHQ/snarkOS.git --depth 1
-cd snarkOS
-./build_ubuntu.sh
-cargo install --path .
-```
-### Cüzdan oluşturuyoruz
+### Iron Fish Node yüklüyoruz.
 
 ```
-snarkos account new
+sudo npm install -g ironfish
 ```
+### Kurulumu kontrol etmek için aşağıdaki kodu girebilirsiniz. 
 
-> Cüzdanı kurulumunu yaptığınızda size verilen bilgileri kayıt etmeyi unutmayın.
+```
+ironfish
+```
+> kod sonrasında aşağıdaki gibi bir çıktı almanız gerekiyor.
 
 Buradaki gibi çıktı alacaksınız;
 ```
