@@ -89,6 +89,23 @@ ironfish start
 > 10-15dk. içerisinde sekronize olmasını bekliyoruz. 
 > CTRL A+D ile screenden çıkıyoruz. !!! Kesinlikle CTRL+C yapmıyoruz. Node durmasına neden olursunuz.
 
+## Screen ekranına tekrar girme
+> 1. Adımda aşağıdaki kodu giriyoruz. Sunucuda olan screenleri listeler.
+```
+screen -ls
+```
+> Sonrasında listelenmiş olan screenin tam ismini alıp; örnek screen -r 14423.ironfish
+> "screen ismi" kısmını silip onu yazıyoruz.
+> ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*38oosgvYLZM5_QEE_PfuCQ.webp)
+```
+screen -r "screen ismi"
+```
+## Node durumunu öğrenme
+```
+ironfish status -f
+```
+> Görseldeki gibi bir çıktı alıyorsanız sorun yoktur. 
+> ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*8hIaI5NIHGzDO-1a1PVVaw.webp)
 
 # Explorer
 ### https://www.aleo.network/
