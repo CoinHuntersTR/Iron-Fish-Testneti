@@ -205,11 +205,11 @@ ironfish wallet:burn
 ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*d1SEa0tvBNTO1suL0EgYKA.webp)
 
 ## Send Asset Görevi
-> Bir önceki görevde oluşturduğunu assetlerin "Asset Indetifier" ID'sini alıyoruz. ENTER basıyoruz.
-> Kaç adedini göndereceğimizi belirliyoruz. Örneğin 5 tanesini yazıyoruz ve ENTER basıyoruz.
-> Iron Fish Public adres giriyoruz. Bunun için discord kanallarından veya başka katılanlardan adreslerini isteyebilirsiniz. Adresi girdikten sonra ENTER basıyoruz.
-> Fiyat kısmına 0.00000001 yazıyoruz ve ENTER basıyoruz.
-> Sonunda bir çıktı alıyorsunuz, oradaki bağlantıyı 10dk. sonrasında explorerdan kontrol edebilirsiniz.
+Bir önceki görevde oluşturduğunu assetlerin "Asset Indetifier" ID'sini alıyoruz. ENTER basıyoruz.
+Kaç adedini göndereceğimizi belirliyoruz. Örneğin 5 tanesini yazıyoruz ve ENTER basıyoruz.
+Iron Fish Public adres giriyoruz. Bunun için discord kanallarından veya başka katılanlardan adreslerini isteyebilirsiniz. Adresi girdikten sonra ENTER basıyoruz.
+Fiyat kısmına 0.00000001 yazıyoruz ve ENTER basıyoruz.
+Sonunda bir çıktı alıyorsunuz, oradaki bağlantıyı 10dk. sonrasında explorerdan kontrol edebilirsiniz.
 
 ```
 ironfish wallet:send
@@ -222,7 +222,7 @@ ironfish wallet:send
 
 
 ## Iron Fish Discord kanalına katılmayı unutmayın;
-### [Discord]([https://discord.gg/aleohq](https://discord.gg/35ZxaUquTc)
+### [Discord](https://discord.gg/35ZxaUquTc)
 
 ## Yarım için telegram kanalımız;
 ### [Coin Hunters Telegram](https://t.me/CoinHuntersTR)
