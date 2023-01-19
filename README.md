@@ -150,12 +150,6 @@ ironfish peers -f
 ironfish wallet:accounts
 ```
 
-## Iron Fish Cüzdan Adresi
-
-```
-ironfish wallet:address
-```
-
 ## Iron Fish Cüzdan Değeri
 > Cüzdan içideki coinlerin sayısını görmek için
 ```
@@ -170,7 +164,7 @@ ironfish wallet:address
 ## Iron Fish Faucetten Coin almak için
 
 ```
-ironfisf faucet
+ironfish faucet
 ```
 > mail adresinizi giriyorsunuz. (Siteye kayıt olduğunuz mail adresinizi girin.)
 > Enter basıyorsunuz.
