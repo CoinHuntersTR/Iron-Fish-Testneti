@@ -62,19 +62,24 @@ sudo npm install -g ironfish
 ironfish
 ```
 > kod sonrasında aşağıdaki gibi bir çıktı almanız gerekiyor.
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*HqdNlZgHIA4Nqs0Qus11kA.webp)
 
-Buradaki gibi çıktı alacaksınız;
+## Node için gerekli portları açıyoruz.
 ```
-Private Key    APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Save Me And Use In The Next Step
-     View Key  AViewKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Save Me
-      Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Save Me 
+ufw allow ssh
+ufw allow 9033
+ufw enable 
 ```
-## Node Başlatıyoruz
-> Aşağıdaki kodu girdiğinizde çıkan ekranda sizden cüzdanınızın Private Key'ini girmenizi istiyor.
-```
-./run-prover.sh
-```
-Bu adımda private keyimizi girdiğimizde çalışmaya başlıyor. Sonrasında blokda ödül kazanıp kazanmadığımıza explorer üzerinden cüzdan adresimizle bakabiliriz.
+> Terminal aşağıdaki gibi bir soru yöneltirse -y diyip devem ediyoruz.
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*Jqi9YDGMThdsTAhIVhv0Qw.webp)
+
+## Iron Fish Sitesine kayıt
+Devam etmek için [Buradan](https://testnet.ironfish.network/about) sitesine ulaşıyoruz. Aşağıdaki bulunan resim gibi "Incentivited Testnet Phase 3" yazan bölümün altındaki "Sign up" basıyoruz.
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*mB4zgPx1NDBWwNAV_0qxmw.webp)
+
+Sonrasında, aşağıdaki formdaki bilgileri doldurup kayıt oluyoruz.
+### UYARI: Graffiti adını node ismiyle aynı olacak şekilde seçin!!
+![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*-9g3lQCL3Pbk8RbAh-irsg.webp)
 
 # Explorer
 ### https://www.aleo.network/
