@@ -75,6 +75,7 @@ ufw enable
 
 ## Iron Fish Sitesine kayıt
 Devam etmek için [Buradan](https://testnet.ironfish.network/about) sitesine ulaşıyoruz. Aşağıdaki bulunan resim gibi "Incentivited Testnet Phase 3" yazan bölümün altındaki "Sign up" basıyoruz.
+
 ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*mB4zgPx1NDBWwNAV_0qxmw.webp)
 
 Sonrasında, aşağıdaki formdaki bilgileri doldurup kayıt oluyoruz.
