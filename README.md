@@ -122,7 +122,7 @@ ironfish status -f
 > Görseldeki gibi bir çıktı alıyorsanız sorun yoktur. 
 > ![Iron-Fish-Testneti](https://miro.medium.com/max/720/1*8hIaI5NIHGzDO-1a1PVVaw.webp)
 
-#Yararlı Komular
+# Yararlı Komular
 
 ## Node Tekrar Çalıştırma
 
